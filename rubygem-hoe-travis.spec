@@ -4,7 +4,7 @@
 #
 Name     : rubygem-hoe-travis
 Version  : 1.2
-Release  : 6
+Release  : 7
 URL      : https://rubygems.org/downloads/hoe-travis-1.2.gem
 Source0  : https://rubygems.org/downloads/hoe-travis-1.2.gem
 Summary  : No detailed summary available
@@ -13,7 +13,6 @@ License  : MIT
 BuildRequires : ruby
 BuildRequires : rubygem-hoe
 BuildRequires : rubygem-minitest
-BuildRequires : rubygem-rake
 BuildRequires : rubygem-rdoc
 BuildRequires : rubygem-travis-lint
 
@@ -61,38 +60,13 @@ popd
 
 %files
 %defattr(-,root,root,-)
-/usr/lib64/ruby/gems/2.2.0/cache/hoe-travis-1.2.gem
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/Hoe/Travis/cdesc-Travis.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/Hoe/Travis/define_travis_tasks-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/Hoe/Travis/travis_after_script-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/Hoe/Travis/travis_before_script-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/Hoe/Travis/travis_disable-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/Hoe/Travis/travis_edit_hook-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/Hoe/Travis/travis_enable-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/Hoe/Travis/travis_fake_config-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/Hoe/Travis/travis_force-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/Hoe/Travis/travis_github_check-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/Hoe/Travis/travis_github_request-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/Hoe/Travis/travis_have_hook%3f-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/Hoe/Travis/travis_make_hook-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/Hoe/Travis/travis_notifications-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/Hoe/Travis/travis_script-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/Hoe/Travis/travis_versions-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/Hoe/Travis/travis_yml_check-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/Hoe/Travis/travis_yml_edit-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/Hoe/Travis/travis_yml_generate-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/Hoe/Travis/travis_yml_write-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/Hoe/cdesc-Hoe.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/cache.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/page-History_txt.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/page-Manifest_txt.ri
-/usr/lib64/ruby/gems/2.2.0/doc/hoe-travis-1.2/ri/page-README_rdoc.ri
-/usr/lib64/ruby/gems/2.2.0/gems/hoe-travis-1.2/.autotest
-/usr/lib64/ruby/gems/2.2.0/gems/hoe-travis-1.2/.gemtest
-/usr/lib64/ruby/gems/2.2.0/gems/hoe-travis-1.2/History.txt
-/usr/lib64/ruby/gems/2.2.0/gems/hoe-travis-1.2/Manifest.txt
-/usr/lib64/ruby/gems/2.2.0/gems/hoe-travis-1.2/README.rdoc
-/usr/lib64/ruby/gems/2.2.0/gems/hoe-travis-1.2/Rakefile
-/usr/lib64/ruby/gems/2.2.0/gems/hoe-travis-1.2/lib/hoe/travis.rb
-/usr/lib64/ruby/gems/2.2.0/gems/hoe-travis-1.2/test/test_hoe_travis.rb
-/usr/lib64/ruby/gems/2.2.0/specifications/hoe-travis-1.2.gemspec
+/usr/lib64/ruby/gems/2.3.0/cache/hoe-travis-1.2.gem
+/usr/lib64/ruby/gems/2.3.0/gems/hoe-travis-1.2/.autotest
+/usr/lib64/ruby/gems/2.3.0/gems/hoe-travis-1.2/.gemtest
+/usr/lib64/ruby/gems/2.3.0/gems/hoe-travis-1.2/History.txt
+/usr/lib64/ruby/gems/2.3.0/gems/hoe-travis-1.2/Manifest.txt
+/usr/lib64/ruby/gems/2.3.0/gems/hoe-travis-1.2/README.rdoc
+/usr/lib64/ruby/gems/2.3.0/gems/hoe-travis-1.2/Rakefile
+/usr/lib64/ruby/gems/2.3.0/gems/hoe-travis-1.2/lib/hoe/travis.rb
+/usr/lib64/ruby/gems/2.3.0/gems/hoe-travis-1.2/test/test_hoe_travis.rb
+/usr/lib64/ruby/gems/2.3.0/specifications/hoe-travis-1.2.gemspec
